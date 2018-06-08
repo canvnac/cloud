@@ -11,6 +11,14 @@ spring:
     platform: h2                                  # 指定数据源类型
     schema: classpath:schema.sql                  # 指定h2数据库的建表脚本
     data: classpath:data.sql                      # 指定h2数据库的数据脚本
+  application:
+    name: microservice-provide-user
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
 logging:
   level:
     root: info
