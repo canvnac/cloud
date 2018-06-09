@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.canlnac.cloud</groupId>
-	<artifactId>microservice-simple-consumer-movie</artifactId>
+	<artifactId>microservice-simple-consumer-movie-understanding-metadata</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>microservice-simple-consumer-movie</name>
+	<name>microservice-simple-consumer-movie-understanding-metadata</name>
 	<description>Demo project for Spring Boot</description>
 
     <parent>

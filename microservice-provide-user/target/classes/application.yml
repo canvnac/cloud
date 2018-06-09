@@ -29,8 +29,8 @@ logging:
 
 info:
   app:
-    name: @project.artifactId@
-    encoding: @project.build.sourceEncoding@
+    name: microservice-provide-user
+    encoding: UTF-8
     java:
-      source: @java.version@
-      target: @java.version@
+      source: 1.8.0_171
+      target: 1.8.0_171

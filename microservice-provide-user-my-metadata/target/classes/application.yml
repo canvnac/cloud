@@ -19,6 +19,9 @@ eureka:
       defaultZone: http://admin:123456@localhost:8761/eureka/
   instance:
     prefer-ip-address: true                       # 将自己的IP注册到eureka server上，默认false
+    metadata-map:
+      # 自定义元数据，key/value可以随便写
+      my-metadata: 我自定义的元数据
 logging:
   level:
     root: info
@@ -29,8 +32,8 @@ logging:
 
 info:
   app:
-    name: @project.artifactId@
-    encoding: @project.build.sourceEncoding@
+    name: microservice-provide-user-my-metadata
+    encoding: UTF-8
     java:
-      source: @java.version@
-      target: @java.version@
+      source: 1.8.0_171
+      target: 1.8.0_171
