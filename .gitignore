@@ -25,6 +25,7 @@ hs_err_pid*
 .mvn
 .idea
 *.cmd
+*.iml
 mvnw
 .gitignore
 target
