@@ -1,0 +1,11 @@
+server:
+  port: 8010
+spring:
+  application:
+      name: microservice-simple-consumer-movie    # 注册到eureka server的服务名
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:123456@localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true                       # 将自己的IP注册到eureka server上，默认false
