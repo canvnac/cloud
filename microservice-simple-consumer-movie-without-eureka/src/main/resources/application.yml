@@ -1,0 +1,10 @@
+server:
+  port: 8010
+spring:
+  application:
+      name: microservice-simple-consumer-movie    # 注册到eureka server的服务名
+
+# 为名为microservice-provide-user的Ribbon客户端设置请求的地址列表
+microservice-provide-user:
+  ribbon:
+    listOfServers: localhost:8000,localhost:8001,localhost:8002
